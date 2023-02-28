@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">    
+    <title>Encriptador - Alura Challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./imagenes/Logo.png" alt="Logo de Alura" >
+    </header>
+    <main>
+        <section class="bloque1">
+            <textarea class="texto-area" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+            <div>
+                <p class="informacion"><img src="./imagenes/bi_exclamation-circle-fill.png" alt="Observacion"> &nbsp;Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="bloque2">
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+      <footer class="pie-de-pagina">
+        <div class="contenido-footer">
+            <p class="copyright">&copy;Copyright Alura - Jaceel Armando Armas Aguayo</p>
+            <div class="redes-sociales">
+                <a href="https://github.com/Jaceel17" target="_blank">
+                <img src="./imagenes/github.png" alt="GitHub Icon"></a>
+                <a href="https://www.linkedin.com/in/jaceel-armando-armas-aguayo-620870117/" target="_blank">
+                <img src="./imagenes/linkedin.png" alt="LinkedIn Icon"></a>
+            </div>
+        </div>
+      </footer>
+</body>
+<script src="./script.js"></script>
+</html>
